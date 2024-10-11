@@ -1,0 +1,23 @@
+@import './components/background.css';
+@import './components/footer.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@config "../../tailwind.config.ts";
+
+@layer base {
+	body {
+		background-image: url('/images/front_page.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+
+@layer base {
+	:root {
+		--color-primary: 0deg, 0%, 9%;
+	}
+}

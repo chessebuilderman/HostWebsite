@@ -1,0 +1,14 @@
+version: 2
+updates:
+  # Configuration for Dockerfile
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 0
+
+  # Configuration for npm
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"

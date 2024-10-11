@@ -1,0 +1,47 @@
+{
+    "cSpell.words": [
+        "Applebot",
+        "Bingbot",
+        "chainhoist",
+        "cssnano",
+        "DIDNT",
+        "Fastpasses",
+        "fontsource",
+        "Googlebot",
+        "nextjs",
+        "nextui",
+        "pkce",
+        "rehype",
+        "roboto",
+        "robux",
+        "Signin",
+        "splinetool",
+        "tailwindcss",
+        "tiktok"
+    ],
+    "prettier.endOfLine": "crlf",
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "files.eol": "\r\n",
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma"
+    },
+    "[dotenv]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "[ignore]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "[dockerfile]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "[shellscript]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    }
+    
+}

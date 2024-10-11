@@ -1,0 +1,62 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ], /* Specify library files to be included in the compilation. */
+    "allowJs": true, /* Allow JavaScript files to be compiled. */
+    "skipLibCheck": true, /* Skip type checking of declaration files. */
+    "strict": true, /* Enable all strict type-checking options. */
+    "noEmit": true, /* Do not emit outputs. */
+    "esModuleInterop": true, /* Enables interoperability between CommonJS and ES Modules. */ /* Module Resolution Options */
+    "module": "esnext", /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es6', 'es2015', 'es2020', 'esnext'. */
+    "moduleResolution": "bundler", /* Specify module resolution strategy: 'node', 'classic', 'bundler'. */
+    "resolveJsonModule": true, /* Include modules imported with `.json` extension. */
+    "isolatedModules": true, /* Treat each file as a separate module. */
+    "jsx": "preserve", /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */ /* Advanced Options */
+    "incremental": true, /* Enable incremental compilation. */
+    "baseUrl": "./", /* Base directory to resolve non-relative module names. */
+    "paths": { /* Specify path mappings to be used during module resolution. */
+      "*": [
+        "*"
+      ],
+      "@/*": [
+        "src/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@models/*": [
+        "src/lib/models*"
+      ]
+    },
+    "typeRoots": [ /* List of folders to include type definitions. */
+      "@types",
+      "src/types"
+    ],
+    "plugins": [ /* List of plugins to load for TypeScript. */
+      {
+        "name": "next"
+      }
+    ],
+    "target": "ES2017"
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "./dist/types/**/*.ts",
+    "./types",
+    "tailwind.config.ts",
+    "postcss.config.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "buildOptions": {
+    "traceResolution": true /* Enable tracing of module resolution process. */
+  }
+}
