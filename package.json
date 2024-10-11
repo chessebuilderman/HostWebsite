@@ -19,7 +19,7 @@
     "axios": "^1.7.4",
     "fs": "^0.0.1-security",
     "next": "^15.0.0-rc.0",
-    "react": "^19.0.0-rc-a03254bc-20240905",
+    "react": "^19.0.0-rc.0",
     "react-dom": "^19.0.0-rc.0",
     "react-server-dom-webpack": "^0.0.1",
     "rehype-raw": "^7.0.0",
